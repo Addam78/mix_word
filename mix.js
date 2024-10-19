@@ -14,9 +14,8 @@ while (p < newpalavra.length) {
     let add = Math.floor(Math.random() * newpalavra.length)
     listar_palavra.push(newpalavra.splice(add,1))
 }
-
+console.log('---------------------')
 console.log(`Palvra embaralhada: ${listar_palavra.toLocaleString().replaceAll(',',' ')}`)
 
-console.log('---------------------')
 
 
